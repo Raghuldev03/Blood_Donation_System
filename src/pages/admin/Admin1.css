@@ -1,0 +1,216 @@
+.campaign-request-container {
+  padding: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  margin-top: 8%;
+}
+
+.campaign-request-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #800;
+  text-align: center;
+}
+
+.campaign-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffeeee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.campaign-table th,
+.campaign-table td {
+  padding: 0.9rem 1.2rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.campaign-table th {
+  background-color: #800;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.campaign-table td {
+  color: #4b5563;
+}
+
+.status-badge {
+  padding: 0.4rem 0.8rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+}
+
+.status-pending {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.status-approved {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-closed {
+  background-color: #e5e7eb;
+  color: #6b7280;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.approve-btn {
+  background-color: #10b981;
+  color: white;
+}
+
+.approve-btn:hover {
+  background-color: #059669;
+}
+
+.close-btn {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.close-btn:hover {
+  background-color: #d97706;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-table,
+  .campaign-table thead,
+  .campaign-table tbody,
+  .campaign-table th,
+  .campaign-table td,
+  .campaign-table tr {
+    display: block;
+  }
+
+  .campaign-table thead {
+    display: none;
+  }
+
+  .campaign-table td {
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  .campaign-table td::before {
+    position: absolute;
+    left: 1rem;
+    top: 0.9rem;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #6b7280;
+  }
+
+  .campaign-table td:nth-child(1)::before {
+    content: "CampaignId";
+  }
+
+  .campaign-table td:nth-child(2)::before {
+    content: "Campaign Name";
+  }
+
+  .campaign-table td:nth-child(3)::before {
+    content: "Registration Number";
+  }
+
+  .campaign-table td:nth-child(4)::before {
+    content: "Description";
+  }
+
+  .campaign-table td:nth-child(5)::before {
+    content: "Blood Type";
+  }
+
+  .campaign-table td:nth-child(6)::before {
+    content: "Date";
+  }
+
+  .campaign-table td:nth-child(7)::before {
+    content: "Location";
+  }
+
+  .campaign-table td:nth-child(8)::before {
+    content: "Target";
+  }
+
+  .campaign-table td:nth-child(9)::before {
+    content: "Status";
+  }
+
+  .campaign-table td:nth-child(10)::before {
+    content: "Actions";
+  }
+}
+/* Header Container Styling */
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Space between the heading and search bar */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px;
+}
+
+/* Heading Styling */
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #800;
+  margin: 0;
+}
+
+/* Search Bar Container */
+.view-valut-searchbar {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+/* Search Input Styling */
+.search-input {
+  padding: 10px 40px; /* Add padding for the search icon */
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus Effect */
+.search-input:focus {
+  border-color: #800000; /* Blood donation theme color */
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.5);
+}

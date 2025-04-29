@@ -1,0 +1,242 @@
+.login-container-charity{
+ margin-top: -1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+   background-color: #fff5f5;
+}
+
+.charity.footer{
+  margin-top: -9%;
+}
+
+.login-image-charity {
+  flex: 1;
+  background-image: url("https://im.hunt.in/cg/lucknow/City-Guide/blood-donation.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.bloodbank-container-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #fff5f5;
+}
+
+/* Card Wrapper */
+.bloodbank-card-signup {
+  display: flex;
+  width: 100%;
+  max-width: 1150px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 6%;
+}
+
+/* Left Side Image */
+.bloodbank-image-signup {
+  flex: 1;
+  background-image: url("https://smims.sreemookambikainstitute.com/wp-content/uploads/2022/08/blood-bank-3.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: brightness(50%);
+}
+
+/* Right Side Form */
+.bloodbank-form-signup {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Logo & Heading */
+.logo-row-bloodbank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-icon {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.bloodbank-subtitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #800000;
+}
+
+/* Input Group (2-column style) */
+.input-group-bloodbank {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.bloodbank-input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.bloodbank-input:focus {
+  border-color: #800000;
+  outline: none;
+}
+
+/* Textarea */
+.full-width {
+  width: 100%;
+  margin-top: 10px;
+  resize: none;
+}
+
+/* Button */
+.bloodbank-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #800000;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bloodbank-button:hover {
+  background-color: #a30000;
+}
+
+/* Text */
+.bloodbank-text {
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+  color: #444;
+}
+
+.bloodbank-link {
+  color: #800000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.bloodbank-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer fix if used */
+.bloodbank-footer {
+  margin-top: -8%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .bloodbank-card-signup {
+    flex-direction: column;
+  }
+
+  .bloodbank-image-signup {
+    height: 200px;
+  }
+
+  .input-group-bloodbank {
+    flex-direction: column;
+  }
+}
+
+.bloodbank-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bloodbank-label {
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #800000;
+}
+.bloodbank-signup-footer {
+  margin-top: -2%; 
+}
+
+/* Responsive */
+
+/* Title Styling */
+.name {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b71c1c; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background: linear-gradient(to right, #b71c1c, #d32f2f);
+  color: white;
+}
+
+th {
+  padding: 12px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  padding: 12px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+tbody tr:hover {
+  background-color: #fce4ec; /* Light pink hover effect */
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+}

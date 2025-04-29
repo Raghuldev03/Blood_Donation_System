@@ -1,0 +1,1761 @@
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* Container styling */
+.campaign-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  margin-top: 10%;
+}
+
+/* Title styling */
+.campaign-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000; /* Blood donation theme color */
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.campaign-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add spacing between form elements */
+}
+
+/* Input and textarea styling */
+.campaign-input,
+.campaign-textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campaign-input:focus,
+.campaign-textarea:focus {
+  outline: none;
+  border-color: #b30000;
+  box-shadow: 0 0 5px rgba(179, 0, 0, 0.5);
+}
+
+/* File input styling */
+.campaign-file-input {
+  padding: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+/* Button styling */
+.campaign-submit-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #b30000; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.campaign-submit-button:hover {
+  background-color: #990000; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.campaign-submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+.campaign-message {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+/* */
+/* Overall container */
+.vc-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #ffeded;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  margin-top: 7%;
+}
+
+/* Title */
+.vc-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #800;
+  margin-bottom: 30px;
+}
+
+/* Search input */
+.vc-search {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 40px auto;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.vc-search:focus {
+  border-color: #800;
+  outline: none;
+}
+
+/* Grid container */
+.vc-card-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/* Individual card */
+.vc-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.vc-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transform: translateY(-3px);
+}
+
+/* Card title */
+.vc-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #800;
+  margin-bottom: 12px;
+}
+
+/* Text inside card */
+.vc-card p {
+  font-size: 0.95rem;
+  color: #374151;
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+/* Status badge */
+.vc-status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 9999px;
+  margin-top: 12px;
+}
+
+.vc-status-approved {
+  background-color: #10b981; /* Tailwind green-500 */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .vc-title {
+    font-size: 1.5rem;
+  }
+
+  .vc-search {
+    max-width: 100%;
+    font-size: 0.95rem;
+  }
+}
+/* Request Button Styling */
+.vc-request-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #c62828; /* Blood donation theme color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.vc-request-button:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.vc-request-button:active {
+  transform: scale(0.95); /* Slight shrink effect on click */
+}

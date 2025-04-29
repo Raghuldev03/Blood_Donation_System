@@ -1,0 +1,317 @@
+.login-container-admin {
+  margin-top: -1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff5f5;
+}
+.admin.footer {
+  margin-top: -9%;
+}
+
+.login-image-admin {
+  flex: 1;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/036/404/541/non_2x/customer-relationship-management-crm-businessman-or-client-show-global-structure-customer-network-technology-data-exchanges-development-customer-service-digital-marketing-online-social-media-hr-free-photo.JPG");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.footer-valut {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* valut*/
+.container-valut {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 9%;
+}
+
+.request-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.request-table th,
+.request-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #555;
+}
+
+.request-table th {
+  background-color: #800000;
+  color: white;
+  font-weight: bold;
+}
+
+.request-table td {
+  background-color: #fff;
+}
+
+.request-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.request-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Action buttons container */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Approve button */
+.approve-button {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+/* Reject button */
+.reject-button {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  background-color: #800000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+/* Add any additional styles you need here */
+.admin-container {
+  font-family: Arial, sans-serif;
+  margin-top: 7%;
+  height: 100vh;
+}
+
+.admin-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000;
+  margin-bottom: 20px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.admin-table-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 4%;
+}
+
+.admin-table {
+  width: 97%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.admin-table thead {
+  background-color: #800000;
+  color: #fff;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.delete {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn.unapprove {
+  background-color: #f1c40f;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* view donar */
+.view-donors-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 7%;
+  font-family: Arial, sans-serif;
+}
+
+.view-donors-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.view-donors-heading {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #800000;
+}
+
+/* Search bar container */
+.view-donors-searchbar {
+  position: relative;
+}
+
+.view-donors-searchbar input {
+  padding: 8px 12px 8px 35px; /* Space for icon */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 280px;
+  transition: all 0.3s ease;
+}
+
+.view-donors-searchbar input:focus {
+  outline: none;
+  border-color: #800000;
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.5);
+}
+
+/* Search icon inside input */
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #666;
+  pointer-events: none;
+}
+
+/* Table styling */
+.view-donors-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.view-donors-table th,
+.view-donors-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.view-donors-table th {
+  background-color: #800000;
+  color: #ffffff;
+}
+
+.view-donors-delete-btn {
+  padding: 6px 12px;
+  background-color: #800000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-donors-delete-btn:hover {
+  background-color: #c0392b;
+}
+/* Header Container Styling */
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Space between the heading and search bar */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px;
+}
+
+/* Heading Styling */
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #800000;
+  margin: 0;
+}
+
+/* Search Bar Container */
+.view-valut-searchbar {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+/* Search Input Styling */
+.search-input {
+  padding: 10px 40px; /* Add padding for the search icon */
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus Effect */
+.search-input:focus {
+  border-color: #800000; /* Blood donation theme color */
+  box-shadow: 0 0 5px rgba(128, 0, 0, 0.5);
+}
